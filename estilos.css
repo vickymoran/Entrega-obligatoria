@@ -13,13 +13,13 @@
 
 body {
     /*Declaración de tipografía*/
-    font-family: 'Savate', Arial, Helvetica, sans-serif;
+    font-family: 'tomorrow', Arial, Helvetica, sans-serif;
     /*Declaración de peso de Tipografía*/
     font-weight: 100;
     /*Declaración de color de fondo del body*/
     background-color: black;
     /*Declaración del color de la tipografía en el body*/
-    color: #00ffb7;
+    color: #ffffff;
 }
 
 /*ESTILOS DE CUADRADOS DE COLORES*/
@@ -27,31 +27,31 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
 }
 /*Este color está declarado con una palabra clave*/
 #color2 {
-    background-color: #ff6300;
+    background-color: rgba(255, 99, 0, 0);
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
-    background-color: rgb(23, 0, 182);
+    background-color: rgba(23, 0, 182, 0);
 }
 /*Este color está declarado en RGB, y tiene transparencia de 0.705*/
 #color4 {
-    background-color: rgb(68, 255, 30);
+    background-color: rgba(68, 255, 30, 0);
 }
 
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
 nav {
     /*Color de texto declarado en #Hex*/
-    color: #ffffff;
+    color: #00ffb7;
 }
 
 /*ESTILOS LINKS EN BARRA DE NAVEGACIÓN*/
 nav a{
     /*Color te texto*/
-    color: #ffffff;
+    color: rgb(226, 221, 255);
     /*Decoración de texto: subrayado | tachado | etc.*/
     text-decoration: none;
     /*Tipografía*/
@@ -86,7 +86,7 @@ nav a:hover{
 /*ESTILOS DE BANNER*/
 .banner {
     /*Imagen de fondo*/
-    background-image: url(media/images.jpeg);
+    background-image: url(media/background-universe.jpg);
     /*Posición del fondo x|y*/
     background-position: center bottom;
     /*¿Repetir fondo? (tramas)*/
@@ -101,7 +101,7 @@ nav a:hover{
 
 .banner_info {
     /*Color de texto*/
-    color: #00ffda;
+    color: rgb(255, 255, 255);
     /*Centrar texto*/
     text-align: center;
     /*Transformar texto a mayúsuclas*/
@@ -116,9 +116,9 @@ nav a:hover{
 /*ESTILOS DEL BOTON*/
 .btn {
     /*Color de fondo*/
-    background-color: rgba(137, 15, 217, 0.66);
+    background-color: rgba(0, 239, 255, 0.66);
     /*Color de tipografía*/
-    color: #b57e7e;
+    color: #000000;
     /*Decoracion del texto*/
     text-decoration: none;
     /*Alineación del texto*/
@@ -138,7 +138,7 @@ nav a:hover{
 /*Al pasar el mouse por arriba*/
 .btn:hover {
     /*Cambio de color de fondo*/
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(182, 0, 255);
 }
 
 /*ESTRUCTURA de la plantilla | Tocar bajo su propio riesgo*/
